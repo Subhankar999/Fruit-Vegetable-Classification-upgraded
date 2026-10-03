@@ -399,5 +399,4 @@ The application also supports **batch image classification, top predictions, con
 """,
         unsafe_allow_html=True,
     )
-    with st.expander(f"All {len(class_names)} supported classes"):
-        st.write(" · ".join(class_names))
+  
