@@ -392,14 +392,9 @@ with tab_about:
     st.markdown(
         """
 <div class="card">
-<b>Architecture</b><br>
-3 × [Conv(3×3, stride 2) → ReLU → BatchNorm → MaxPool] with 64 → 128 → 256 filters,
-global average pooling, then a 256 → 512 → 256 → 88 fully-connected head with dropout 0.3.<br><br>
-<b>Training</b><br>
-Adam (lr 0.001), cross-entropy loss, 120 epochs, augmentation: horizontal flip and ±15° rotation.<br><br>
-<b>Reported accuracy (from the notebook)</b><br>
-Train 90.66% · Unseen test set 73.22%. Expect lower confidence on cluttered backgrounds,
-unusual angles or visually similar items.
+**Fruit & Vegetable Classifier** is a deep learning-based image classification application built using **PyTorch and Streamlit**.
+The application uses a custom **Convolutional Neural Network (CNN)** to identify images across **88 fruit and vegetable classes**. Users can upload an image or capture one using their camera and receive the predicted class along with its confidence score.
+The application also supports **batch image classification, top predictions, confidence analysis, prediction history, CSV export, and customizable themes**.
 </div>
 """,
         unsafe_allow_html=True,
