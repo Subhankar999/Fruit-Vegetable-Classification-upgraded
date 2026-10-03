@@ -7,7 +7,7 @@ The project provides an interactive **Streamlit web application** where users ca
 ---
 
 🔗 **Project Link:**  
-[Add your Streamlit project link here](YOUR_STREAMLIT_LINK_HERE)
+https://fruit-vegetable-classification-upgraded-g4w36uwvmxf3iamns8fne2.streamlit.app/
 
 The application uses a custom CNN model trained to classify images into **88 different fruit and vegetable classes**.
 
