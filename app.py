@@ -278,7 +278,7 @@ st.markdown(
     """
 <div class="hero">
   <h1>🍎 Fruit &amp; Vegetable Classifier</h1>
-  <p>Upload a photo and a convolutional neural network will identify it from 88 fruit and vegetable classes.</p>
+  <p>Upload a photo or batch of photos and a convolutional neural network will identify the fruit or vegetable classes.</p>
 </div>
 """,
     unsafe_allow_html=True,
