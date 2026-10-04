@@ -35,7 +35,5 @@ The application supports image formats including **JPG, JPEG, PNG, and WEBP**.
 - Pillow (PIL)
 - Pandas
 - JSON
-- HTML
-- CSS
 - Jupyter Notebook
 - Streamlit Community Cloud
