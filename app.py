@@ -277,8 +277,8 @@ inject_css(theme)
 st.markdown(
     """
 <div class="hero">
-  <h1>🍎 Fruit &amp; Vegetable Classifier</h1>
-  <p>Upload a photo or batch of photos and a convolutional neural network will identify the fruit or vegetable classes.</p>
+  <h1>FreshVision AI</h1>
+  <p>Fruits & Vegetable Classifier</p>
 </div>
 """,
     unsafe_allow_html=True,
